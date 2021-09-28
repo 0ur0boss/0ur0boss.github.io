@@ -28,7 +28,7 @@ renderer.render( scene, camera);
 const controls = new OrbitControls(camera, renderer.domElement);
 
 // on met un background 
-const spaceTexture = new THREE.TextureLoader().load('space.jpg');
+const spaceTexture = new THREE.TextureLoader().load('material/space.jpg');
 scene.background = spaceTexture;
 
 
@@ -77,7 +77,7 @@ Array(200).fill().forEach(addStar)
 
 // on crée un cube avec une image
 // <----------------------------
-const enzoTexture = new THREE.TextureLoader().load('enzo.png');
+const enzoTexture = new THREE.TextureLoader().load('material/enzo.png');
 
 const enzo = new THREE.Mesh(
 	new THREE.BoxGeometry(3,3,3),
@@ -92,8 +92,8 @@ enzo.position.x = 2;
 
 //on crée une lune
 // <----------------------------
-const moonTexture = new THREE.TextureLoader().load('moon.jpg');
-const normalTexture = new THREE.TextureLoader().load('normal.jpg');
+const moonTexture = new THREE.TextureLoader().load('material/moon.jpg');
+const normalTexture = new THREE.TextureLoader().load('material/normal.jpg');
 
 
 const moon = new THREE.Mesh(
