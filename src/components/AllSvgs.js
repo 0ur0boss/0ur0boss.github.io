@@ -178,6 +178,30 @@ export const PowerBtn = (props) => {
   
   }
   
+  export  const Unity = (props) => {
+    return (
+      <svg
+      aria-hidden="true"
+      data-prefix="fas"
+      data-icon="Unity"
+      id="Layer_1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+      viewBox="0 0 512 512"
+      style={{
+        enableBackground: "new 0 0 512 512",
+      }}
+      xmlSpace="preserve"
+      {...props}
+    >
+      <g>
+        <path d="M481,209.8L431.8,31L248,78.9l-27.2,46.7l-55.2-0.4L31,256l134.5,130.8l55.2-0.4l27.3,46.6L431.8,481L481,302.3L453,256 L481,209.8z M225.2,133.1L365.8,98l-80.7,136H123.6L225.2,133.1z M225.2,378.9L123.6,278.1h161.4l80.7,136L225.2,378.9z M405.1,392 l-80.8-136l80.7-136l39,136L405.1,392z" />
+      </g>
+    </svg>
+  )
+  }
+  
+  
   export const Develope = (props) => { 
     return (
       <svg

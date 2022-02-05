@@ -46,6 +46,15 @@ text-decoration: none;
 z-index:1;
 `
 
+const CV = styled(NavLink)`
+color: ${props => props.theme.text};
+position: absolute;
+top: 50%;
+left: calc(1rem + 2vw);
+transform: translate(-50%, -50%) rotate(-90deg);
+text-decoration: none;
+z-index:1;
+`
 
 const BottomBar = styled.div`
 position: absolute;
@@ -157,6 +166,15 @@ const Main = () => {
          </motion.h2>
 
        </Work>
+       <CV to="/">
+         <motion.h2
+         whileHover={{scale: 1.1}}
+         whileTap={{scale: 0.9}}
+         >
+          My C.V
+         </motion.h2>
+
+       </CV>
        <BottomBar>
         <AbouT to="/about" click={click}>
         <motion.h2
