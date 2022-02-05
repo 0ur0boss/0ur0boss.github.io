@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components'
 import {NavLink} from 'react-router-dom'
 import {Github,Twitter,Facebook,YouTube} from '../components/AllSvgs'
+import { DarkTheme } from '../components/Themes';
 
 
 
@@ -26,35 +27,35 @@ z-index:3;
 const Line = styled.span`
 width: 2px;
 height: 8rem;
-background-color: ${props => props.theme.text};
+background-color: ${props => props.color === 'dark' ? DarkTheme.text : DarkTheme.body};
 `
 
 
 
-const Socialicons = () => {
+const Socialicons = (props) => {
   return <Icons>
     <div>
         <NavLink style={{color: 'inherit'}} target="_blank" to={{pathname:"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}}>
-            <Github width={25} height={25} fill='currentColor'></Github>
+            <Github width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}></Github>
         </NavLink>
     </div>
     <div>
         <NavLink style={{color: 'inherit'}} target="_blank" to={{pathname:"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}}>
-            <Twitter width={25} height={25} fill='currentColor'></Twitter>
+            <Twitter width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}></Twitter>
         </NavLink>
     </div>
     <div>
         <NavLink style={{color: 'inherit'}} target="_blank" to={{pathname:"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}}>
-            <Facebook width={25} height={25} fill='currentColor'></Facebook>
+            <Facebook width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}></Facebook>
         </NavLink>
     </div>
     <div>
         <NavLink style={{color: 'inherit'}} target="_blank" to={{pathname:"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}}>
-            <YouTube width={25} height={25} fill='currentColor'></YouTube>
+            <YouTube width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}></YouTube>
         </NavLink>
     </div>
 
-    <Line />
+    <Line color={props.theme} />
   </Icons>;
 };
 

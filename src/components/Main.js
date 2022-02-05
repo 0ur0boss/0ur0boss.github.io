@@ -1,10 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { NavLink } from 'react-router-dom';
-import styled, { keyframes } from 'styled-components'
+import styled, { keyframes } from 'styled-components';
 import LogoComponents from '../subComponents/LogoComponents';
 import PowerButton from '../subComponents/PowerButton';
 import Socialicons from '../subComponents/Socialicons';
 import {YinYang} from './AllSvgs';
+import Intro from './Intro';
+import {motion} from 'framer-motion';
 
 
 const MainContainer = styled.div`
@@ -45,7 +47,7 @@ z-index:1;
 `
 
 const WorK = styled(NavLink)`
-color: ${props => props.theme.text};
+color: ${props => props.click ? props.theme.body : props.theme.text};
 position: absolute;
 top: 50%;
 left: calc(1rem + 2vw);
@@ -66,7 +68,7 @@ justify-content: space-evenly;
 `
 
 const AbouT = styled(NavLink)`
-color: ${props => props.theme.text};
+color: ${props => props.click ? props.theme.body : props.theme.text};
 text-decoration: none;
 z-index:1;
 `
@@ -88,8 +90,8 @@ to{
 
 const Center = styled.button`
 position: absolute;
-top: 50%;
-left: 50%;
+top: ${props => props.click ? '85%' : '50%' };
+left: ${props => props.click ? '92%' : '50%' };
 transform: translate(-50%, -50%);
 border: none;
 outline: none;
@@ -100,6 +102,7 @@ display: flex;
 flex-direction:column;
 justify-content: center;
 align-items: center;
+transition: all 1s ease;
 
 &>:first-child{
   animation: ${rotate} infinite 1.5s linear;
@@ -107,19 +110,39 @@ align-items: center;
 
 &>:last-child{
   padding-top: 1rem;
+  display: ${props => props.click ? 'none' : 'inline-block' };;
 }
 `
 
+const DarkDiv = styled.div`
+position: absolute;
+top: 0;
+bottom: 0;
+right: 50%;
+width: ${props => props.click ? '50%' : '0%' };
+height: ${props => props.click ? '100%' : '0%' };
+z-index:1;
+background-color: #000;
+transition: height 0.5s ease, width 1s ease 0.5s;
+`
+
 const Main = () => {
+
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => setClick(!click);
+
   return <MainContainer>
       <Container>
+       <DarkDiv click={click} />
 
        <PowerButton />
-       <LogoComponents />
-       <Socialicons/>
+       <LogoComponents theme={click ? 'dark' : 'light'}/>
+       <Socialicons theme={click ? 'dark' : 'light'}/>
 
-       <Center>
-         <YinYang width={200} height={200} fill='currentColor' />
+
+       <Center click={click}>
+         <YinYang onClick={()=> handleClick()} width={click ? 120 : 200} height={click ? 120 : 200} fill='currentColor' />
          <span>Click here</span>
        </Center>
 
@@ -127,34 +150,50 @@ const Main = () => {
 
       {/* Liens vers les components */}
        <Contact target="_blank" to={{pathname:"mailto:enzodupro@gmail.com"}}>
-         <h2>
+         <motion.h2
+         whileHover={{scale: 1.1}}
+         whileTap={{scale: 0.9}}
+         >
          Email me!
-         </h2>
+         </motion.h2>
        </Contact>
        <BloG to="/blog">
-         <h2>
+         <motion.h2
+         whileHover={{scale: 1.1}}
+         whileTap={{scale: 0.9}}
+         >
           Blog
-         </h2>
+         </motion.h2>
+
        </BloG>
-       <WorK to="/work">
-         <h2>
+       <WorK to="/work" click={click}>
+       <motion.h2
+         whileHover={{scale: 1.1}}
+         whileTap={{scale: 0.9}}
+         >
           Work
-         </h2>
+         </motion.h2>
        </WorK>
        <BottomBar>
-        <AbouT to="/about">
-          <h2>
+        <AbouT to="/about" click={click}>
+        <motion.h2
+         whileHover={{scale: 1.1}}
+         whileTap={{scale: 0.9}}
+         >
             About
-          </h2>
+          </motion.h2>
         </AbouT>
         <SkillS to="/skills">
-          <h2>
+        <motion.h2
+         whileHover={{scale: 1.1}}
+         whileTap={{scale: 0.9}}
+         >
             My Skills
-          </h2>
+          </motion.h2>
         </SkillS>
        </BottomBar>
-
       </Container>
+      {click ? <Intro click={click}/> : null}
   </MainContainer>;
 };
 
