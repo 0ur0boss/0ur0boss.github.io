@@ -36,7 +36,7 @@ text-decoration: none;
 z-index:1;
 `
 
-const BloG = styled(NavLink)`
+const Work = styled(NavLink)`
 color: ${props => props.theme.text};
 position: absolute;
 top: 50%;
@@ -46,15 +46,6 @@ text-decoration: none;
 z-index:1;
 `
 
-const WorK = styled(NavLink)`
-color: ${props => props.click ? props.theme.body : props.theme.text};
-position: absolute;
-top: 50%;
-left: calc(1rem + 2vw);
-transform: translate(-50%, -50%) rotate(-90deg) ;
-text-decoration: none;
-z-index:1;
-`
 
 const BottomBar = styled.div`
 position: absolute;
@@ -157,23 +148,15 @@ const Main = () => {
          Email me!
          </motion.h2>
        </Contact>
-       <BloG to="/blog">
+       <Work to="/Work">
          <motion.h2
-         whileHover={{scale: 1.1}}
-         whileTap={{scale: 0.9}}
-         >
-          Blog
-         </motion.h2>
-
-       </BloG>
-       <WorK to="/work" click={click}>
-       <motion.h2
          whileHover={{scale: 1.1}}
          whileTap={{scale: 0.9}}
          >
           Work
          </motion.h2>
-       </WorK>
+
+       </Work>
        <BottomBar>
         <AbouT to="/about" click={click}>
         <motion.h2
