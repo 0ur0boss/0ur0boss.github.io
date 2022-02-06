@@ -7,6 +7,7 @@ import LogoComponents from '../subComponents/LogoComponents';
 import PowerButton from '../subComponents/PowerButton';
 import Socialicons from '../subComponents/Socialicons';
 import ParticleComponent from '../subComponents/ParticleComponent';
+import BigTitle from '../subComponents/BigTitle'
 
 
 const Box = styled.div`
@@ -126,7 +127,7 @@ const MySkillsPage = () => {
               Unity, Blender, Adobe suite etc..
               </p>
             </Description>
-
+            <BigTitle text="Skills" top="76%" right="25%" />
           </Main>
       </Box>
 

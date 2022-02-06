@@ -17,7 +17,7 @@ export const Works = [
         id:1,
         name:"ShowReel",
         tags:["AfterEffect","1Week","Cv_Video"],
-        date:"15 Nov, 2021",
+        date:"17 Dec, 2021",
         imgSrc: Shewreel,
         link:"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
@@ -25,7 +25,7 @@ export const Works = [
         id:2,
         name:"AppReader",
         tags:["react","1Week","MMI","web"],
-        date:"15 Nov, 2021",
+        date:"22 Nov, 2021",
         imgSrc: AppReader,
         link:"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
@@ -33,7 +33,7 @@ export const Works = [
         id:3,
         name:"Rouge",
         tags:["Js","1Week","MMI","web"],
-        date:"15 Nov, 2021",
+        date:"23 Oct, 2021",
         imgSrc: Rouge,
         link:"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
@@ -41,7 +41,7 @@ export const Works = [
         id:4,
         name:"UnJeupourmoi",
         tags:["Linux","1Week","MMI","web"],
-        date:"15 Nov, 2021",
+        date:"10 Mar, 2021",
         imgSrc: UnJeupourmoi,
         link:"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
@@ -49,7 +49,7 @@ export const Works = [
         id:5,
         name:"Loss",
         tags:["Unity","1Week","MMI","Game"],
-        date:"15 Nov, 2021",
+        date:"7 Nov, 2021",
         imgSrc: Loss,
         link:"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
@@ -65,7 +65,7 @@ export const Works = [
         id:7,
         name:"Samedi10h",
         tags:["Unity","1Month","SériousGame","Game"],
-        date:"15 Nov, 2021",
+        date:"4 Jun, 2021",
         imgSrc: Samedi10h,
         link:"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
@@ -74,7 +74,7 @@ export const Works = [
         id:8,
         name:"Crystal",
         tags:["3D","Blender","ForFun"],
-        date:"15 Nov, 2021",
+        date:"4 Aug, 2021",
         imgSrc: Crystal,
         link:"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
@@ -82,7 +82,7 @@ export const Works = [
         id:9,
         name:"Plasma",
         tags:["3D","Blender","ForFun"],
-        date:"15 Nov, 2021",
+        date:"26 May, 2021",
         imgSrc: Plasma,
         link:"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
@@ -90,7 +90,7 @@ export const Works = [
         id:10,
         name:"FuturisticTunnel",
         tags:["3D","Blender","ForFun"],
-        date:"15 Nov, 2021",
+        date:"17 Dec, 2021",
         imgSrc: FuturisticTunnel,
         link:"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
@@ -98,7 +98,7 @@ export const Works = [
         id:11,
         name:"Flyermusée",
         tags:["AdobeSuite","1Week","MMI"],
-        date:"15 Nov, 2021",
+        date:"6 Sep, 2021",
         imgSrc: Flyermusée,
         link:"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
@@ -106,7 +106,7 @@ export const Works = [
         id:12,
         name:"Polyphia",
         tags:["AdobeSuite","1Week","MMI"],
-        date:"15 Nov, 2021",
+        date:"26 Sep, 2020",
         imgSrc: Polyphia,
         link:"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },

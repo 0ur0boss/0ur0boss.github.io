@@ -4,9 +4,10 @@ import styled, { keyframes } from 'styled-components';
 import LogoComponents from '../subComponents/LogoComponents';
 import PowerButton from '../subComponents/PowerButton';
 import Socialicons from '../subComponents/Socialicons';
-import {YinYang} from './AllSvgs';
+import {BordLogo,NomLogo} from './AllSvgs';
 import Intro from './Intro';
 import {motion} from 'framer-motion';
+import {DarkTheme} from './Themes';
 
 
 const MainContainer = styled.div`
@@ -47,7 +48,7 @@ z-index:1;
 `
 
 const CV = styled(NavLink)`
-color: ${props => props.theme.text};
+color: ${props => props.click ? props.theme.body : props.theme.text};
 position: absolute;
 top: 50%;
 left: calc(1rem + 2vw);
@@ -108,9 +109,15 @@ transition: all 1s ease;
   animation: ${rotate} infinite 1.5s linear;
 }
 
+&>:nth-child(1n){
+  position: absolute;
+}
+
 &>:last-child{
-  padding-top: 1rem;
-  display: ${props => props.click ? 'none' : 'inline-block' };;
+  padding-top: 15rem;
+  display: ${props => props.click ? 'none' : 'inline-block' };
+  color: ${props => props.theme.text};
+  position: relative;
 }
 `
 
@@ -122,7 +129,7 @@ right: 50%;
 width: ${props => props.click ? '50%' : '0%' };
 height: ${props => props.click ? '100%' : '0%' };
 z-index:1;
-background-color: #000;
+background-color: ${props => props.theme.text};
 transition: height 0.5s ease, width 1s ease 0.5s;
 `
 
@@ -132,7 +139,7 @@ const Main = () => {
 
   const handleClick = () => setClick(!click);
 
-  return <MainContainer>
+  return <MainContainer> 
       <Container>
        <DarkDiv click={click} />
 
@@ -141,8 +148,9 @@ const Main = () => {
        <Socialicons theme={click ? 'dark' : 'light'}/>
 
 
-       <Center click={click}>
-         <YinYang onClick={()=> handleClick()} width={click ? 120 : 200} height={click ? 120 : 200} fill='currentColor' />
+       <Center click={click} onClick={()=> handleClick()}>
+         <BordLogo  style={{color: 'inherit'}} width={click ? 120 : 200} height={click ? 125 : 200} fill='currentColor' />
+         <NomLogo   style={{color: 'inherit'}} width={click ? 100 : 200} height={click ? 87.5 : 140} fill='currentColor' />
          <span>Click here</span>
        </Center>
 
@@ -151,6 +159,14 @@ const Main = () => {
       {/* Liens vers les components */}
        <Contact target="_blank" to={{pathname:"mailto:enzodupro@gmail.com"}}>
          <motion.h2
+         initial={{
+           y:-200,
+           transition: { type:'spring', duration: 1, delay:0.5}
+         }}
+         animate={{
+          y:0,
+          transition: { type:'spring', duration: 1, delay:0.5}
+        }}
          whileHover={{scale: 1.1}}
          whileTap={{scale: 0.9}}
          >
@@ -159,6 +175,15 @@ const Main = () => {
        </Contact>
        <Work to="/Work">
          <motion.h2
+         initial={{
+          y:-200,
+          transition: { type:'spring', duration: 1, delay:0.5}
+            }}
+          animate={{
+            y:0,
+            transition: { type:'spring', duration: 1, delay:0.5}
+            }}         
+         whileHove
          whileHover={{scale: 1.1}}
          whileTap={{scale: 0.9}}
          >
@@ -166,8 +191,16 @@ const Main = () => {
          </motion.h2>
 
        </Work>
-       <CV to="/">
+       <CV target="_blank" to={{pathname:"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}} click={click}>
          <motion.h2
+         initial={{
+          y:-200,
+          transition: { type:'spring', duration: 1, delay:0.5}
+            }}
+          animate={{
+            y:0,
+            transition: { type:'spring', duration: 1, delay:0.5}
+            }}         
          whileHover={{scale: 1.1}}
          whileTap={{scale: 0.9}}
          >
@@ -178,6 +211,15 @@ const Main = () => {
        <BottomBar>
         <AbouT to="/about" click={click}>
         <motion.h2
+         initial={{
+          y:200,
+          transition: { type:'spring', duration: 1, delay:0.5}
+            }}
+          animate={{
+            y:0,
+            transition: { type:'spring', duration: 1, delay:0.5}
+            }}         
+         whileHove
          whileHover={{scale: 1.1}}
          whileTap={{scale: 0.9}}
          >
@@ -186,6 +228,15 @@ const Main = () => {
         </AbouT>
         <SkillS to="/skills">
         <motion.h2
+         initial={{
+          y:200,
+          transition: { type:'spring', duration: 1, delay:0.5}
+            }}
+          animate={{
+            y:0,
+            transition: { type:'spring', duration: 1, delay:0.5}
+            }}         
+         whileHove
          whileHover={{scale: 1.1}}
          whileTap={{scale: 0.9}}
          >

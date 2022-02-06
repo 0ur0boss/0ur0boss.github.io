@@ -8,16 +8,14 @@ import { PowerBtn } from '../components/AllSvgs';
 const Power = styled.button`
 position: fixed;
 top : 2rem;
-left : 50%;
+left : 50vw;
 transform: translate(-50%, 0);
-
 background-color: #FCF6F4;
 padding: 0.3rem;
 border-radius: 50%;
-border: 1px solid #000000;
+border: 1px solid #600000;
 width: 2.5rem;
 height: 2.5rem;
-
 display: flex;
 justify-content: center;
 align-items: center;
@@ -27,17 +25,14 @@ cursor: pointer;
 
 // effet allumer quand on passe la souris
 &:hover{
-    background-color: rgba(0,255,0,0.5);
-    box-shadow: 0 0 8px 6px rgba(0,255,0,0.2);
+    background-color: rgba(213,67,63,0.5);
+    box-shadow: 0 0 8px 6px rgba(213,67,63,0.2);
 }
 
 &>*:first-child{
     text-decoration: none;
     color: inherit;
 }
-
-
-
 `
 
 
@@ -45,7 +40,7 @@ const PowerButton = () => {
     
   return <Power>
       <NavLink to="/">
-      <PowerBtn width={30} height={30} fill='currentColor'></PowerBtn>
+      <PowerBtn width={30} height={30} style={{color:'#600000'}} fill='currentColor'></PowerBtn>
       </NavLink>
   </Power>;
 };

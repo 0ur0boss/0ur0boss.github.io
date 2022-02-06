@@ -10,6 +10,7 @@ import WorkCompenent from './WorkCompenent';
 import AnchorComponent from '../subComponents/AnchorComponent';
 import { useEffect } from 'react/cjs/react.development';
 import ParticleComponent from '../subComponents/ParticleComponent';
+import BigTitle from '../subComponents/BigTitle'
 
 
 
@@ -70,7 +71,7 @@ const WorkPage = () => {
         </Grid>
       </Center>
 
-
+      <BigTitle text="Works" top="3rem" left="5rem" />
     </Container>
 
 </ThemeProvider>
