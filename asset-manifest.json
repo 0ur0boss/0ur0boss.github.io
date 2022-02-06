@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.js": "/static/js/main.d518f526.chunk.js",
+    "main.js.map": "/static/js/main.d518f526.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9a213e67.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9a213e67.js.map",
+    "static/css/2.679831fc.chunk.css": "/static/css/2.679831fc.chunk.css",
+    "static/js/2.b23a7edc.chunk.js": "/static/js/2.b23a7edc.chunk.js",
+    "static/js/2.b23a7edc.chunk.js.map": "/static/js/2.b23a7edc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.679831fc.chunk.css.map": "/static/css/2.679831fc.chunk.css.map",
+    "static/js/2.b23a7edc.chunk.js.LICENSE.txt": "/static/js/2.b23a7edc.chunk.js.LICENSE.txt",
+    "static/media/AppReader.5f01a469.png": "/static/media/AppReader.5f01a469.png",
+    "static/media/Crystal.71bccf2a.png": "/static/media/Crystal.71bccf2a.png",
+    "static/media/Flyermusée.0711b042.png": "/static/media/Flyermusée.0711b042.png",
+    "static/media/FuturisticTunnel.afb0291f.png": "/static/media/FuturisticTunnel.afb0291f.png",
+    "static/media/Loss.8bda49dd.png": "/static/media/Loss.8bda49dd.png",
+    "static/media/Nanimo.60f97c0d.png": "/static/media/Nanimo.60f97c0d.png",
+    "static/media/Plasma.464306d2.png": "/static/media/Plasma.464306d2.png",
+    "static/media/Polyphia.6c571275.jpg": "/static/media/Polyphia.6c571275.jpg",
+    "static/media/ProfilePictureEnzoDuret.753448ac.png": "/static/media/ProfilePictureEnzoDuret.753448ac.png",
+    "static/media/Rouge.936dd5ca.png": "/static/media/Rouge.936dd5ca.png",
+    "static/media/Samedi10h.5b3c4c9d.png": "/static/media/Samedi10h.5b3c4c9d.png",
+    "static/media/Shewreel.ddba2851.png": "/static/media/Shewreel.ddba2851.png",
+    "static/media/UnJeupourmoi.90f72478.png": "/static/media/UnJeupourmoi.90f72478.png",
+    "static/media/webpage.d1e32a6e.png": "/static/media/webpage.d1e32a6e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9a213e67.js",
+    "static/css/2.679831fc.chunk.css",
+    "static/js/2.b23a7edc.chunk.js",
+    "static/js/main.d518f526.chunk.js"
+  ]
+}
