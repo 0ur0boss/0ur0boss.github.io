@@ -1,24 +1,17 @@
 import React, {useState} from 'react';
-import styled from 'styled-components'
-import img from "../assets/Images/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg"
+import styled, { ThemeProvider } from 'styled-components'
 import LogoComponents from '../subComponents/LogoComponents';
 import PowerButton from '../subComponents/PowerButton';
 import { motion } from 'framer-motion'
 import Socialicons from '../subComponents/Socialicons';
-
+import {lightTheme} from './Themes';
 import {Works} from '../data/WorkData';
 import WorkCompenent from './WorkCompenent';
 import AnchorComponent from '../subComponents/AnchorComponent';
 import { useEffect } from 'react/cjs/react.development';
+import ParticleComponent from '../subComponents/ParticleComponent';
 
 
-const MainContainer = styled(motion.div)`
-background-image: url(${img});
-background-size: cover;
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-position: center;
-`
 
 const Container = styled.div`
 background-color: ${props => `rgba(${props.theme.bodyRgba},0.8)`};
@@ -56,8 +49,9 @@ const WorkPage = () => {
   }, [])
 
 
-  return <MainContainer>
+  return <ThemeProvider theme={lightTheme}>
     <Container>
+    <ParticleComponent theme='light' />
       <LogoComponents />
       <PowerButton />
       <Socialicons />
@@ -78,8 +72,8 @@ const WorkPage = () => {
 
 
     </Container>
-  </MainContainer>
 
+</ThemeProvider>
 };
 
 export default WorkPage;

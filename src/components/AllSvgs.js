@@ -133,8 +133,6 @@ export const PowerBtn = (props) => {
     )
   }
   
-  
-  
   export const Link = (props) => {
     return (
       <svg
@@ -155,8 +153,6 @@ export const PowerBtn = (props) => {
       </svg>
     )
   }
-  
-  
   
   export const Design = (props) => { 
     return (
@@ -200,7 +196,6 @@ export const PowerBtn = (props) => {
     </svg>
   )
   }
-  
   
   export const Develope = (props) => { 
     return (
