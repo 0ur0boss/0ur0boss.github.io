@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.a58464de.chunk.js",
-    "main.js.map": "/static/js/main.a58464de.chunk.js.map",
+    "main.js": "/static/js/main.bd75e031.chunk.js",
+    "main.js.map": "/static/js/main.bd75e031.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9a213e67.js",
     "runtime-main.js.map": "/static/js/runtime-main.9a213e67.js.map",
     "static/css/2.679831fc.chunk.css": "/static/css/2.679831fc.chunk.css",
@@ -10,26 +10,26 @@
     "index.html": "/index.html",
     "static/css/2.679831fc.chunk.css.map": "/static/css/2.679831fc.chunk.css.map",
     "static/js/2.17025bed.chunk.js.LICENSE.txt": "/static/js/2.17025bed.chunk.js.LICENSE.txt",
-    "static/media/AppReader.5f01a469.png": "/static/media/AppReader.5f01a469.png",
-    "static/media/Crystal.71bccf2a.png": "/static/media/Crystal.71bccf2a.png",
-    "static/media/CvEnzoDuret.615a007b.zip": "/static/media/CvEnzoDuret.615a007b.zip",
-    "static/media/Flyermusée.0711b042.png": "/static/media/Flyermusée.0711b042.png",
-    "static/media/FuturisticTunnel.afb0291f.png": "/static/media/FuturisticTunnel.afb0291f.png",
-    "static/media/Loss.8bda49dd.png": "/static/media/Loss.8bda49dd.png",
-    "static/media/Nanimo.60f97c0d.png": "/static/media/Nanimo.60f97c0d.png",
-    "static/media/Plasma.464306d2.png": "/static/media/Plasma.464306d2.png",
-    "static/media/Polyphia.6c571275.jpg": "/static/media/Polyphia.6c571275.jpg",
-    "static/media/ProfilePictureEnzoDuret.753448ac.png": "/static/media/ProfilePictureEnzoDuret.753448ac.png",
-    "static/media/Rouge.936dd5ca.png": "/static/media/Rouge.936dd5ca.png",
-    "static/media/Samedi10h.5b3c4c9d.png": "/static/media/Samedi10h.5b3c4c9d.png",
-    "static/media/Shewreel.ddba2851.png": "/static/media/Shewreel.ddba2851.png",
-    "static/media/UnJeupourmoi.90f72478.png": "/static/media/UnJeupourmoi.90f72478.png",
-    "static/media/webpage.d1e32a6e.png": "/static/media/webpage.d1e32a6e.png"
+    "static/media/AppReader.0bca5d4b.png": "/static/media/AppReader.0bca5d4b.png",
+    "static/media/CovCom.4816b4cb.png": "/static/media/CovCom.4816b4cb.png",
+    "static/media/Crystal.17910f10.png": "/static/media/Crystal.17910f10.png",
+    "static/media/CvEnzoDuret.b37ad64d.pdf": "/static/media/CvEnzoDuret.b37ad64d.pdf",
+    "static/media/Flyermusée.1bd530e7.png": "/static/media/Flyermusée.1bd530e7.png",
+    "static/media/FuturisticTunnel.ff3ef792.png": "/static/media/FuturisticTunnel.ff3ef792.png",
+    "static/media/Loss.42980984.png": "/static/media/Loss.42980984.png",
+    "static/media/Nanimo.ef4b8b39.png": "/static/media/Nanimo.ef4b8b39.png",
+    "static/media/Plasma.b717149e.png": "/static/media/Plasma.b717149e.png",
+    "static/media/ProfilePictureEnzoDuret.d652d569.png": "/static/media/ProfilePictureEnzoDuret.d652d569.png",
+    "static/media/Regards.cef0fcf4.png": "/static/media/Regards.cef0fcf4.png",
+    "static/media/Samedi10h.b7946ec7.png": "/static/media/Samedi10h.b7946ec7.png",
+    "static/media/Shewreel.4e3c66fb.png": "/static/media/Shewreel.4e3c66fb.png",
+    "static/media/UnJeupourmoi.073848ae.png": "/static/media/UnJeupourmoi.073848ae.png",
+    "static/media/webpage.6a31bace.png": "/static/media/webpage.6a31bace.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9a213e67.js",
     "static/css/2.679831fc.chunk.css",
     "static/js/2.17025bed.chunk.js",
-    "static/js/main.a58464de.chunk.js"
+    "static/js/main.bd75e031.chunk.js"
   ]
 }
