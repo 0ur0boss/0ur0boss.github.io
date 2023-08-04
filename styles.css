@@ -1,0 +1,25 @@
+/* Ajouter vos styles CSS pour le menu latéral ici */
+
+/* Styles pour le menu latéral */
+/* .navmenu {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #f2f2f2;
+    padding: 10px;
+    z-index: 999;
+  } */
+  
+  /* .menubotton {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+  } */
+  
+  /* Styles pour le lien actif avec un fond rouge */
+  .menubotton.active {
+    background-color: red;
+  }
+  

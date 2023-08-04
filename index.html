@@ -1,2 +1,1010 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.svg"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Hi, I'm Enzo Duret and this is my Reactjs Portfolio.
-      You can find my work in web development, front-end with React, video games made on unity, Blender projects, and many others!"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600&family=Pacifico&family=Source+Sans+Pro:wght@400;600;700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"><title>Enzo Duret</title><link href="/static/css/2.679831fc.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(e){function r(r){for(var n,l,f=r[0],i=r[1],a=r[2],p=0,s=[];p<f.length;p++)l=f[p],Object.prototype.hasOwnProperty.call(o,l)&&o[l]&&s.push(o[l][0]),o[l]=0;for(n in i)Object.prototype.hasOwnProperty.call(i,n)&&(e[n]=i[n]);for(c&&c(r);s.length;)s.shift()();return u.push.apply(u,a||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,f=1;f<t.length;f++){var i=t[f];0!==o[i]&&(n=!1)}n&&(u.splice(r--,1),e=l(l.s=t[0]))}return e}var n={},o={1:0},u=[];function l(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,l),t.l=!0,t.exports}l.m=e,l.c=n,l.d=function(e,r,t){l.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},l.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},l.t=function(e,r){if(1&r&&(e=l(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(l.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)l.d(t,n,function(r){return e[r]}.bind(null,n));return t},l.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return l.d(r,"a",r),r},l.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},l.p="/";var f=this["webpackJsonpreact-portfolio-starter-code-files"]=this["webpackJsonpreact-portfolio-starter-code-files"]||[],i=f.push.bind(f);f.push=r,f=f.slice();for(var a=0;a<f.length;a++)r(f[a]);var c=i;t()}([])</script><script src="/static/js/2.17025bed.chunk.js"></script><script src="/static/js/main.bd75e031.chunk.js"></script></body></html>
+<!DOCTYPE html>
+<!-- This site was created by me ^^, Enzo Duret or 0ur0, Well, it's possible that I've re use code from different sites, and especially from weblow.. Oh thanks GPT ! But shhh... -->
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>0ur0 3D Artist</title>
+  <link rel="icon" href="/favicon.svg">
+  <meta content="Online portfolio - I am a 3D Artist" name="description" />
+  <meta content="Enzo Duret 3D Artist" property="og:title" />
+  <meta content="Online portfolio - I am a 3D Artist" property="og:description" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <link rel="preload" as="image" href="/img/Plasma.b717149e.png">
+  <link rel="preload" as="image" href="/img/Nanimo.png">
+  <link rel="preload" as="image" href="/img/Crystal.17910f10.png">
+  <link rel="preload" as="image" href="/ressource/logo_enzo.png">
+
+
+  <!-- Font -->
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script
+    type="text/javascript">WebFont.load({ google: { families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic", "Oswald:200,300,400,500,600,700", "Mr Dafoe:regular", "Medula One:regular", "Lekton:regular,italic,700", "Voltaire:regular", "Tulpen One:regular", "Text Me One:regular", "Amatic SC:regular,700", "Squada One:regular", "Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"] } });</script>
+  <!-- Font -->
+
+  <style>
+    .loading {
+      display: flex;
+    }
+  </style>
+
+  <style>
+    ::-webkit-scrollbar {
+      width: 6px;
+      /* for vertical scrollbars */
+      height: 6px;
+      /* for horizontal scrollbars */
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #600001;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #D5433F;
+    }
+  </style>
+  <link rel="stylesheet" href="/normalize.css">
+  <!-- <link rel="stylesheet" href="/styles.css"> -->
+  <!-- <script async src="/sidemenu.js"></script> -->
+</head>
+
+
+
+<body>
+
+  <!-- HEADER MOBILE -->
+  <div class="mobile_navbar w-hidden-main">
+    <div class="mobile-navbar-back"></div>
+    <div class="navbar-row w-row">
+      <div class="flex_row w-col w-col-5 w-col-small-5 w-col-tiny-5">
+        <div class="mobilenavbar_button"><a href="#home" class="mobilenavbar_button">Home</a></div>
+        <div class="mobilenavbar_button"><a href="#portfolio" class="mobilenavbar_button">Portfolio</a></div>
+        <!-- <div class="mobilenavbar_button"><a href="#news-tablet" class="mobilenavbar_button">news</a></div> -->
+      </div>
+      <div class="central_column w-col w-col-2 w-col-small-2 w-col-tiny-2">
+        <div class="mobilenavbar_logo w-hidden-main"><a href="#home" class="w-inline-block"><img
+              src="/ressource/logo_enzo_mobile.png" alt="" class="mobilenavbar_logo_image" /></a></div>
+      </div>
+      <div class="flex_row w-col w-col-5 w-col-small-5 w-col-tiny-5">
+        <div class="mobilenavbar_button"><a href="#about" class="mobilenavbar_button">about</a></div>
+        <div class="mobilenavbar_button"><a href="#contact" class="mobilenavbar_button">contact</a></div>
+      </div>
+    </div>
+  </div>
+  <!-- HEADER MOBILE -->
+
+  <!-- SIDE MENU DESKTOP -->
+  <div data-collapse="medium" data-animation="default" data-duration="400" data-no-scroll="1"
+    class="sidebar w-hidden-medium w-hidden-small w-hidden-tiny w-nav">
+    <div class="sidebar_content w-clearfix">
+      <div class="sidebar_title-area"><a href="/" class="img_100w w-inline-block w--current"><img
+            src="/ressource/logo_enzo.png" width="383" alt="" class="img_100w" /></a></div>
+      <div class="w-nav-button">
+        <div class="w-icon-nav-menu"></div>
+      </div>
+      <nav role="navigation" class="navmenu w-nav-menu">
+        <a href="#home" class="menubotton w-nav-link active">Home</a>
+        <a href="#portfolio" class="menubotton w-nav-link">portfolio</a>
+        <!-- <a href="#news" class="menubotton w-nav-link">news</a> -->
+        <a href="#about" class="menubotton w-nav-link">About</a>
+        <a href="#contact" class="menubotton w-nav-link">Contact</a>
+      </nav>
+      <script>
+        // Fonction pour définir le lien actif en fonction de la section visible à l'écran
+        function setActiveLink() {
+          const sections = document.querySelectorAll('.sidemenusection');
+
+          let activeLink = document.querySelector('.active');
+
+          sections.forEach((section) => {
+            const link = document.querySelector(`a[href="#${section.id}"]`);
+
+            const sectionTop = section.getBoundingClientRect().top;
+            const sectionBottom = section.getBoundingClientRect().bottom;
+
+            if (sectionTop <= 30 && sectionBottom >= 0) {
+              // Ajouter la classe "active" uniquement au lien correspondant à la section visible
+              activeLink.classList.remove('active');
+              link.classList.add('active');
+              activeLink = link;
+            }
+          });
+
+          // Vérifier si aucune section active n'est détectée à l'écran
+          // if (!document.querySelector('.active')) {
+          //   const linkHome = document.querySelector('a[href="#Hero"]');
+          //   linkHome.classList.add('active');
+          //   activeLink = linkHome;
+          // }
+
+          // Code pour la version mobile
+          // const mobileSections = document.querySelectorAll('.sidemenusection');
+          // let activeMobileLink = document.querySelector('.mobilenavbar_button.active');
+
+          // mobileSections.forEach((section) => {
+          //   const mobileLink = document.querySelector(`a[href="#${section.id}-tablet"]`);
+          //   const sectionTop = section.getBoundingClientRect().top;
+          //   const sectionBottom = section.getBoundingClientRect().bottom;
+
+          //   if (sectionTop <= 30 && sectionBottom >= 0) {
+          //     activeMobileLink.classList.remove('active');
+          //     mobileLink.classList.add('active');
+          //     activeMobileLink = mobileLink;
+          //   }
+          // });
+        }
+
+        // Fonction pour gérer le défilement fluide lors du clic sur les liens du menu
+        function smoothScroll(target) {
+          const element = document.querySelector(target);
+          const elementPosition = element.getBoundingClientRect().top;
+          const offsetPosition = elementPosition - 0; // Ajuster l'offset si nécessaire
+
+          window.scrollBy({
+            top: offsetPosition,
+            behavior: 'smooth', // Ajouter un effet de défilement fluide
+          });
+        }
+
+        // Attacher des écouteurs d'événements de clic aux liens du menu
+        document.querySelectorAll('.w-nav-link').forEach((link) => {
+          link.addEventListener('click', (event) => {
+            event.preventDefault(); // Empêcher le comportement par défaut des liens d'ancre
+            const target = event.target.getAttribute('href');
+            smoothScroll(target);
+          });
+        });
+
+        document.querySelectorAll('.mobilenavbar_button').forEach((link) => {
+          link.addEventListener('click', (event) => {
+            event.preventDefault(); // Empêcher le comportement par défaut des liens d'ancre
+            const target = event.target.getAttribute('href');
+            smoothScroll(target);
+          });
+        });
+
+        // Attacher un écouteur d'événement de défilement pour définir le lien actif lors du défilement
+        window.addEventListener('scroll', () => {
+          setActiveLink();
+        });
+
+        // Définir le lien actif initial lors du chargement de la page
+        setActiveLink();
+      </script>
+
+
+      <div class="sidebar_social">
+        <div class="social_flexrow">
+          <a href="https://www.behance.net/onboarding/adobe" target="_blank" class="social-icon w-inline-block">
+            <img src="/ressource/iconmonstr-behance-3.svg" data-ix="social-icon" alt="" class="logo_social" /></a>
+          <a target="_blank" href="https://www.instagram.com/" class="social-icon w-inline-block">
+            <img src="/ressource/Instagram_simple_icon.svg" data-ix="social-icon" alt="" /></a>
+          <a href="https://twitter.com/" target="_blank" class="social-icon w-inline-block">
+            <img src="/ressource/iconmonstr-twitter-1.svg" data-ix="social-icon" alt="" /></a>
+        </div>
+        <div class="social_flexrow">
+          <a href="https://www.artstation.com/artist/#" class="social-icon w-inline-block">
+            <img src="/ressource/ArtStation-logomark-white.svg" data-ix="social-icon" alt="" /></a>
+          <a href="https://www.youtube.com/" target="_blank" class="social-icon w-inline-block">
+            <img src="/ressource/youtube-brands.svg" data-ix="social-icon" alt="" /></a>
+          <a target="_blank" href="https://www.linkedin.com/" class="social-icon w-inline-block">
+            <img src="/ressource/iconmonstr-linkedin-3.svg" data-ix="social-icon" alt="" /></a>
+        </div>
+        
+        <div class="social_flexrow hidden">
+          <a href="#" class="social-icon w-inline-block"><img
+              src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/588f683ad7a2e7e17e5710dd_social_icons_04_vimeo.svg"
+              data-ix="social-icon" alt="" /></a>
+          <a href="#" class="social-icon w-inline-block"><img
+              src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/588f68456c5d8fdd05646430_social_icons_05_artstation.svg"
+              data-ix="social-icon" alt="" /></a>
+          <a href="#" class="social-icon w-inline-block"><img
+              src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/588f684fd1806d77452f79ab_social_icons_06_behance.svg"
+              data-ix="social-icon" alt="" /></a>
+          <a href="#" class="social-icon w-inline-block"><img
+              src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/588f6792d1806d77452f7927_social_icons_03_youtube.svg"
+              data-ix="social-icon" alt="" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="sidebar_border"></div>
+  </div>
+  <!-- SIDE MENU DESKTOP -->
+
+
+  <div class="full-content">
+    <div class="main-content">
+
+      <!-- Partie Slider -->
+      <style>
+        /* CSS du slider */
+        .home_section {
+          width: 100%;
+          max-width: 100%;
+          overflow: hidden;
+          position: relative;
+        }
+
+        .w-slider-mask {
+          display: flex;
+        }
+
+        .slide {
+          flex-shrink: 0;
+          width: 100%;
+          position: absolute;
+          opacity: 0;
+          transition: opacity 0.5s ease;
+          /* Ajout de la transition pour le fondu enchaîné */
+        }
+
+        .slide.active {
+          z-index: 1;
+          opacity: 1;
+        }
+
+        /* Personnaliser ces styles selon vos besoins pour les images des diapositives */
+        .slide_image {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        /* Styles pour les flèches de navigation */
+        .w-slider-arrow-left,
+        .w-slider-arrow-right {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          cursor: pointer;
+          z-index: 2;
+        }
+
+        .w-slider-arrow-left {
+          left: 0;
+        }
+
+        .w-slider-arrow-right {
+          right: 0;
+        }
+      </style>
+
+      <div data-delay="3500" data-animation="fade" data-autoplay="1" data-duration="1000" data-infinite="1" id="home"
+        class="home_section w-slider sidemenusection">
+        <div class="w-slider-mask">
+          <div class="slide w-slide active">
+            <img src="/img/Plasma.b717149e.png" alt="Image 1" class="slide_image _1">
+          </div>
+          <div class="slide w-slide">
+            <img src="/img/Nanimo.png" alt="Image 2" class="slide_image _2">
+          </div>
+          <div class="slide w-slide">
+            <img src="/img/Crystal.17910f10.png" alt="Image 3" class="slide_image _3">
+          </div>
+        </div>
+        <div class="w-slider-arrow-left">
+          <div class="home_arrow w-hidden-small w-hidden-tiny w-icon-slider-left"></div>
+        </div>
+        <div class="w-slider-arrow-right">
+          <div class="home_arrow w-icon-slider-right"></div>
+        </div>
+      </div>
+
+      <script>
+        // JavaScript du slider
+        (function () {
+          var arrowLeft = document.querySelector('.w-slider-arrow-left');
+          var arrowRight = document.querySelector('.w-slider-arrow-right');
+          var sliderMask = document.querySelector('.w-slider-mask');
+          var slides = document.querySelectorAll('.slide');
+          var slideWidth = slides[0].clientWidth; // Largeur d'une diapositive
+          var currentIndex = 0; // Index de la diapositive actuelle
+
+          // Fonction pour afficher la diapositive suivante avec fondu enchaîné
+          function showNextSlide() {
+            var nextIndex = (currentIndex + 1) % slides.length;
+            slides[currentIndex].style.opacity = 0;
+            slides[nextIndex].style.opacity = 1;
+            currentIndex = nextIndex;
+          }
+
+          // Fonction pour afficher la diapositive précédente avec fondu enchaîné
+          function showPreviousSlide() {
+            var prevIndex = (currentIndex - 1 + slides.length) % slides.length;
+            slides[currentIndex].style.opacity = 0;
+            slides[prevIndex].style.opacity = 1;
+            currentIndex = prevIndex;
+          }
+
+          arrowLeft.addEventListener('click', showPreviousSlide);
+          arrowRight.addEventListener('click', showNextSlide);
+
+          // Afficher la première diapositive au chargement de la page
+          slides[currentIndex].style.opacity = 1;
+
+          // Fonction pour changer automatiquement de slide toutes les 3.5 secondes avec fondu enchaîné
+          function autoScrollSlider() {
+            var nextIndex = (currentIndex + 1) % slides.length;
+            slides[currentIndex].style.opacity = 0;
+            slides[nextIndex].style.opacity = 1;
+            currentIndex = nextIndex;
+          }
+
+          // Lancer le défilement automatique toutes les 3.5 secondes
+          setInterval(autoScrollSlider, 3500);
+        })();
+      </script>
+      <!-- Partie Slider -->
+
+      <!-- Partie PORTFOLIO -->
+      <div id="portfolio" class="gallery_section w-clearfix sidemenusection">
+        <div id="sep" class="separator">
+          <div data-filter=".personal" class="gallery_menu_button">PROJET</div>
+          <div data-filter=".professional" class="gallery_menu_button">PROFESSIONAL</div>
+          <div data-filter="*" class="gallery_menu_button">ALL</div>
+          <div data-filter=".treddi" class="gallery_menu_button">3D ART</div>
+          <div data-filter=".dueddi" class="gallery_menu_button last">2d art</div>
+        </div>
+        <div class="item personal treddi"><img src="/img/+BKf7j.png" width="550" alt="RonSketch"
+            srcset="/img/+BKf7j.png 500w, /img/+BKf7j.png 550w" sizes="(max-width: 991px) 50vw, 16vw"
+            class="gallery_image" /><a href="https://enzoduret.com/" data-ix="gallery-hover"
+            class="hover_overlay w-inline-block">
+            <div data-ix="start-off-small" class="gallery_title start-off">PROJET</div>
+            <div data-ix="start-off-up" class="gallery_subtitle start-off">Personal</div>
+          </a></div>
+        <div class="item personal treddi"><img src="/img/38uvMv.png" width="550" alt="RonSketch"
+            srcset="/img/38uvMv.png 500w, /img/38uvMv.png 550w" sizes="(max-width: 991px) 50vw, 16vw"
+            class="gallery_image" /><a href="https://enzoduret.com/" data-ix="gallery-hover"
+            class="hover_overlay w-inline-block">
+            <div data-ix="start-off-small" class="gallery_title start-off">Gros</div>
+            <div data-ix="start-off-small" class="gallery_title workname start-off">PROJET</div>
+            <div data-ix="start-off-up" class="gallery_subtitle start-off">Personal</div>
+          </a></div>
+        <div class="item personal treddi"><img src="/img/3LAqWg.png" width="550" alt="RonSketch"
+            srcset="/img/3LAqWg.png 500w, /img/3LAqWg.png 550w" sizes="(max-width: 991px) 50vw, 16vw"
+            class="gallery_image" /><a href="https://enzoduret.com/" data-ix="gallery-hover"
+            class="hover_overlay w-inline-block">
+            <div data-ix="start-off-small" class="gallery_title start-off">Gros</div>
+            <div data-ix="start-off-small" class="gallery_title workname start-off">PROJET</div>
+            <div data-ix="start-off-up" class="gallery_subtitle start-off">Personal</div>
+          </a></div>
+        <div class="item professional treddi"><img src="/img/4TVwqj.png" width="550" alt="RonSketch"
+            class="gallery_image" /><a href="https://enzoduret.com/" data-ix="gallery-hover"
+            class="hover_overlay w-inline-block">
+            <div data-ix="start-off-small" class="gallery_title start-off">PROJET</div>
+            <div data-ix="start-off-up" class="gallery_subtitle start-off">Professional</div>
+          </a></div>
+        <div class="item professional treddi"><img src="/img/AppReader.0bca5d4b.png" width="550" alt="RonSketch"
+            srcset="/img/AppReader.0bca5d4b.png 500w, /img/AppReader.0bca5d4b.png 550w"
+            sizes="(max-width: 991px) 50vw, 16vw" class="gallery_image" /><a href="https://enzoduret.com/"
+            data-ix="gallery-hover" class="hover_overlay w-inline-block">
+            <div data-ix="start-off-small" class="gallery_title start-off">PROJET</div>
+            <div data-ix="start-off-up" class="gallery_subtitle start-off">Professional</div>
+          </a></div>
+        <div class="item professional treddi"><img src="/img/CovCom.4816b4cb.png" width="550" alt="RonSketch"
+            class="gallery_image" /><a href="https://enzoduret.com/" data-ix="gallery-hover"
+            class="hover_overlay w-inline-block">
+            <div data-ix="start-off-small" class="gallery_title start-off">PROJET</div>
+            <div data-ix="start-off-up" class="gallery_subtitle start-off">Professional</div>
+          </a></div>
+        <div class="item personal treddi"><img src="/img/Crystal.17910f10.png" width="550" alt="RonSketch"
+            class="gallery_image" /><a href="https://enzoduret.com/" data-ix="gallery-hover"
+            class="hover_overlay w-inline-block">
+            <div data-ix="start-off-small" class="gallery_title start-off">PROJET</div>
+            <div data-ix="start-off-up" class="gallery_subtitle start-off">Personal</div>
+          </a></div>
+        <div class="item personal dueddi"><img src="/img/Flyermusée.1bd530e7.png" width="550" alt="RonSketch"
+            srcset="/img/Flyermusée.1bd530e7.png 500w, /img/Flyermusée.1bd530e7.png 550w"
+            sizes="(max-width: 991px) 50vw, 16vw" class="gallery_image" /><a href="https://enzoduret.com/"
+            data-ix="gallery-hover" class="hover_overlay w-inline-block">
+            <div data-ix="start-off-small" class="gallery_title start-off">PROJET</div>
+            <div data-ix="start-off-up" class="gallery_subtitle start-off">Personal</div>
+          </a></div>
+        <div class="item professional treddi"><img src="/img/FuturisticTunnel.ff3ef792.png" width="550"
+            srcset="/img/FuturisticTunnel.ff3ef792.png 500w, /img/FuturisticTunnel.ff3ef792.png 550w"
+            sizes="(max-width: 991px) 50vw, 16vw" alt="" class="gallery_image" /><a href="https://enzoduret.com/"
+            data-ix="gallery-hover" class="hover_overlay w-inline-block">
+            <div data-ix="start-off-small" class="gallery_title start-off">PROJET</div>
+            <div data-ix="start-off-up" class="gallery_subtitle start-off">Professional</div>
+          </a></div>
+        <div class="item professional treddi"><img src="/img/Nanimo.png" width="550" alt="" class="gallery_image" /><a
+            data-ix="gallery-hover" href="https://enzoduret.com/" class="hover_overlay w-inline-block">
+            <div data-ix="start-off-small" class="gallery_title">PROJET</div>
+            <div data-ix="start-off-small" class="gallery_title workname start-off">Oui</div>
+            <div data-ix="start-off-up" class="gallery_subtitle start-off">Professional</div>
+          </a></div>
+        <div class="item professional treddi"><img src="/img/Plasma.b717149e.png" width="550" alt=""
+            class="gallery_image" /><a data-ix="gallery-hover" href="https://enzoduret.com/"
+            class="hover_overlay w-inline-block">
+            <div data-ix="start-off-small" class="gallery_title start-off">PROJET</div>
+            <div data-ix="start-off-small" class="gallery_title workname start-off">oui</div>
+            <div data-ix="start-off-up" class="gallery_subtitle start-off">Professional</div>
+          </a></div>
+        <div class="item professional treddi"><img src="/img/pV30Qz.png" width="550" srcset="/img/pV30Qz.png 500w"
+            sizes="(max-width: 991px) 50vw, 16vw" alt="" class="gallery_image" /><a href="https://enzoduret.com/"
+            data-ix="gallery-hover" class="hover_overlay w-inline-block">
+            <div data-ix="start-off-small" class="gallery_title start-off">PROJET</div>
+            <div data-ix="start-off-small" class="gallery_title workname start-off">oui</div>
+            <div data-ix="start-off-up" class="gallery_subtitle start-off">Professional</div>
+          </a></div>
+        <div class="item personal dueddi"><img src="/img/Regards.cef0fcf4.png" width="550"
+            srcset="/img/Regards.cef0fcf4.png 500w" sizes="(max-width: 991px) 50vw, 16vw" alt=""
+            class="gallery_image" /><a href="https://enzoduret.com/" data-ix="gallery-hover"
+            class="hover_overlay w-inline-block">
+            <div data-ix="start-off-small" class="gallery_title start-off">PROJET</div>
+            <div data-ix="start-off-up" class="gallery_subtitle start-off">Personal - Fan Art</div>
+          </a></div>
+        <div class="item professional treddi"><img src="/img/Shewreel.4e3c66fb.png" width="550" alt=""
+            class="gallery_image" /><a href="https://enzoduret.com/" data-ix="gallery-hover"
+            class="hover_overlay w-inline-block">
+            <div data-ix="start-off-small" class="gallery_title">PROJET</div>
+            <div data-ix="start-off-small" class="gallery_title workname start-off">oui</div>
+            <div data-ix="start-off-up" class="gallery_subtitle start-off">Professional</div>
+          </a></div>
+        <div class="item professional treddi"><img src="/img/téléchargement (1).png" width="550" alt=""
+            class="gallery_image" /><a href="https://enzoduret.com/" data-ix="gallery-hover"
+            class="hover_overlay w-inline-block">
+            <div data-ix="start-off-small" class="gallery_title start-off">PROJET</div>
+            <div data-ix="start-off-up" class="gallery_subtitle start-off">Professional</div>
+          </a></div>
+        <div class="item professional treddi"><img src="/img/téléchargement.png" width="550" alt=""
+            class="gallery_image" /><a href="https://enzoduret.com/" data-ix="gallery-hover"
+            class="hover_overlay w-inline-block">
+            <div data-ix="start-off-small" class="gallery_title start-off">PROJET</div>
+            <div data-ix="start-off-up" class="gallery_subtitle start-off">Professional</div>
+          </a></div>
+        <div class="item professional treddi"><img src="/img/U9AA1w.png" width="550" alt="" class="gallery_image" /><a
+            data-ix="gallery-hover" href="https://enzoduret.com/" class="hover_overlay w-inline-block">
+            <div data-ix="start-off-small" class="gallery_title start-off">PROJET</div>
+            <div data-ix="start-off-small" class="gallery_title workname start-off">oui</div>
+            <div data-ix="start-off-up" class="gallery_subtitle start-off">Professional</div>
+          </a></div>
+        <div class="item professional treddi"><img src="/img/UnJeupourmoi.073848ae.png" width="550" alt=""
+            class="gallery_image" /><a href="https://enzoduret.com/" data-ix="gallery-hover"
+            class="hover_overlay w-inline-block">
+            <div data-ix="start-off-small" class="gallery_title start-off">PROJET</div>
+            <div data-ix="start-off-small" class="gallery_title workname start-off">oui</div>
+            <div data-ix="start-off-up" class="gallery_subtitle start-off">Professional</div>
+          </a></div>
+        <div class="item professional treddi"><img src="/img/ZuhZaQ.png" width="550" alt="" class="gallery_image" /><a
+            href="https://enzoduret.com/" data-ix="gallery-hover" class="hover_overlay w-inline-block">
+            <div data-ix="start-off-small" class="gallery_title start-off">PROJET</div>
+            <div data-ix="start-off-small" class="gallery_title workname start-off">oui</div>
+            <div data-ix="start-off-up" class="gallery_subtitle start-off">Professional</div>
+          </a></div>
+        <div class="item professional treddi"><img src="/img/ZbaAee.png" width="550" alt="" class="gallery_image" /><a
+            href="https://enzoduret.com/" data-ix="gallery-hover" class="hover_overlay w-inline-block">
+            <div data-ix="start-off-small" class="gallery_title start-off">PROJET</div>
+            <div data-ix="start-off-small" class="gallery_title workname start-off">oui</div>
+            <div data-ix="start-off-up" class="gallery_subtitle start-off">Professional</div>
+          </a></div>
+        <div class="section_ball gallery-ball w-hidden-main"></div>
+        <div id="news-tablet" class="tablet-navbar-dummy w-hidden-main"></div>
+      </div>
+      <!-- Partie PORTFOLIO -->
+
+      <div class="separator sep_bott"></div>
+
+      <!-- Partie NEWS -->
+
+      <!-- Partie NEWS -->
+
+      <!-- Partie ABOUT -->
+      <div id="about" class="section about sidemenusection">
+        <div id="ab" class="news-label-wrapper">
+          <div class="news-affarino"><img src="/ressource/Separateur_2.png" width="255" alt="" class="img_100w" /></div>
+          <div class="title-section newscolor">ABOUT</div>
+          <div class="news-affarino"><img src="/ressource/Separateur_2.png" width="255" alt="" class="img_100w flip" />
+          </div>
+        </div>
+        <div class="bio-section">
+          <div class="bio-container">
+            <div class="bio-column1">
+              <div class="photo-wrapper">
+                <div class="about-photo"> </div>
+              </div>
+              <div class="resume-wrapper"><a href="https://www.dropbox.com/" data-ix="downloadresume" target="_blank"
+                  class="resume-label w-inline-block">
+                  <div class="resume-label text">DOWNLOAD<br /><span class="testo-grosso">RESUME</span></div>
+                </a><a href="https://enzoduret.com/static/media/CvEnzoDuret.b37ad64d.pdf" data-ix="downloadresume"
+                  target="_blank" class="resume_circle_wrapper w-inline-block">
+                  <div class="resume-circle"></div>
+                  <div class="resume-inner-circle"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/585010f3c4fff13c4adbf54e_arrow-down-sign-to-navigate.svg"
+                      alt="" class="arrow-resume" /></div>
+                </a></div>
+            </div>
+            <div class="bio-column2">
+              <!-- <div class="interest-wrapper">
+                <div class="interest-icon-wrapper">
+                  <div class="interest-icon"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/58500e75c4fff13c4adbf231_atom.svg"
+                      width="75" data-ix="interest" alt="" class="interest_image" /></div>
+                  <div class="interest-text">science</div>
+                </div>
+                <div class="interest-icon-wrapper">
+                  <div class="interest-icon"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/58500c6e15000dbf599d2016_gamepad-buttons.svg"
+                      width="75" data-ix="interest" alt="" class="interest_image games" /></div>
+                  <div class="interest-text">GAMES</div>
+                </div>
+                <div class="interest-icon-wrapper">
+                  <div class="interest-icon"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/58500cca9f9570ba583da2ef_open-book.svg"
+                      width="75" data-ix="interest" alt="" class="interest_image books" /></div>
+                  <div class="interest-text">BOOKS</div>
+                </div>
+                <div class="interest-icon-wrapper">
+                  <div class="interest-icon"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/58500e3911df667142666e7a_film_2.svg"
+                      width="75" data-ix="interest" alt="" class="interest_image movies" /></div>
+                  <div class="interest-text">MOVIES</div>
+                </div>
+                <div class="interest-icon-wrapper">
+                  <div class="interest-icon"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/58500bcb296f15b44297e9e8_rocket-launch.svg"
+                      width="75" data-ix="interest" alt="" class="interest_image space" /></div>
+                  <div class="interest-text">space</div>
+                </div>
+              </div> -->
+              <div class="bio-wrapper">
+                <div class="bio-panel">
+                  <h1 class="bio-title">BIO</h1>
+                  <p class="bio-paragraph">I am a 3D Character Modeler with roughly four years of experience, I&#x27;m
+                    italian and I&#x27;m currently based in France.<br />My main softwares are Maya and Zbrush, and I
+                    have worked in cartoon character development for both Tv series and commercials.<br />‍<br />I’m a
+                    space geek (space!) and I am very passionate about videogames as well: I was playing before I could
+                    read. So much for tutorials. <br />I am a team player with leadership skills. I am also strong in
+                    problem solving and in the fine art of Bodging. <br />‍ </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bio-section">
+          <div class="bio-container">
+            <div class="skill-wrapper lskill">
+              <div class="skill-panel">
+                <div class="chart-wrapper">
+                  <div class="skills_organic"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583de201e41dbbcf4768131c_Skills_organicMOdeling.png"
+                      width="94" alt="" class="img_100w" /></div>
+                  <div class="skills_slice"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583de201e41dbbcf4768131c_Skills_organicMOdeling.png"
+                      width="94" alt="" class="img_100w" /></div>
+                  <div class="skills_sculpiting"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583de201cfd47f631ff6a8a5_Skills_Sculpt.png"
+                      width="94"
+                      srcset="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583de201cfd47f631ff6a8a5_Skills_Sculpt-p-500x500.png 500w, https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583de201cfd47f631ff6a8a5_Skills_Sculpt.png 746w"
+                      sizes="(max-width: 479px) 27vw, (max-width: 991px) 23vw, 12vw" alt="" class="img_100w" /></div>
+                  <div class="skills_slice"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583de201cfd47f631ff6a8a5_Skills_Sculpt.png"
+                      width="94"
+                      srcset="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583de201cfd47f631ff6a8a5_Skills_Sculpt-p-500x500.png 500w, https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583de201cfd47f631ff6a8a5_Skills_Sculpt.png 746w"
+                      sizes="(max-width: 479px) 27vw, (max-width: 991px) 23vw, 12vw" alt="" class="img_100w" /></div>
+                  <div class="skills_handpaint"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583de201ea08bc521f0bb79b_Skills_handpainting.png"
+                      width="94" alt="" class="img_100w" /></div>
+                  <div class="skills_slice"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583de201ea08bc521f0bb79b_Skills_handpainting.png"
+                      width="94" alt="" class="img_100w" /></div>
+                  <div class="skills_concept"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583de2016d6ba6c04dd7e11c_Skills_ConceptArt.png"
+                      width="94"
+                      srcset="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583de2016d6ba6c04dd7e11c_Skills_ConceptArt-p-500x500.png 500w, https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583de2016d6ba6c04dd7e11c_Skills_ConceptArt.png 746w"
+                      sizes="(max-width: 479px) 27vw, (max-width: 991px) 23vw, 12vw" alt="" class="img_100w" /></div>
+                  <div class="skills_slice"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583de2016d6ba6c04dd7e11c_Skills_ConceptArt.png"
+                      width="94"
+                      srcset="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583de2016d6ba6c04dd7e11c_Skills_ConceptArt-p-500x500.png 500w, https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583de2016d6ba6c04dd7e11c_Skills_ConceptArt.png 746w"
+                      sizes="(max-width: 479px) 27vw, (max-width: 991px) 23vw, 12vw" alt="" class="img_100w" /></div>
+                  <div class="skill-title">SKILLS</div>
+                </div>
+                <div class="skill-list">
+                  <div data-ix="skills-organic" class="skill-row">
+                    <div data-ix="skills-organic" class="skill-dot col1"></div>
+                    <div data-ix="skills-organic" class="skill-name">ORGANIC MODELING</div>
+                  </div>
+                  <div data-ix="skills-sculpting" class="skill-row">
+                    <div data-ix="skills-sculpting" class="skill-dot col2"></div>
+                    <div data-ix="skills-sculpting" class="skill-name">SCULPTING</div>
+                  </div>
+                  <div data-ix="skills-handpaint" class="skill-row">
+                    <div data-ix="skills-handpaint" class="skill-dot col3"></div>
+                    <div data-ix="skills-handpaint" class="skill-name">HANDPAINTED TEXTURES</div>
+                  </div>
+                  <div data-ix="skills-concept" class="skill-row">
+                    <div data-ix="skills-concept" class="skill-dot col5"></div>
+                    <div data-ix="skills-concept" class="skill-name">CONCEPT ART</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-wrapper">
+              <div class="skill-panel fixh">
+                <div class="chart-wrapper">
+                  <div class="skill-maya"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583c3a5c64d0592803b0547e_tool-maya-cc.png"
+                      width="94" alt="" class="img_100w" /></div>
+                  <div class="tool-slice"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583c3a5c64d0592803b0547e_tool-maya-cc.png"
+                      width="94" alt="" class="img_100w" /></div>
+                  <div class="skill-zbrush"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583c3a5cb333a5214d359811_tool-zbrush-cc.png"
+                      width="94" alt="" class="img_100w" /></div>
+                  <div class="tool-slice"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583c3a5cb333a5214d359811_tool-zbrush-cc.png"
+                      width="94" alt="" class="img_100w" /></div>
+                  <div class="tool_photoshop"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583c3a5c1c4185d43630d4af_tool-photoshop-cc.png"
+                      width="94" alt="" class="img_100w" /></div>
+                  <div class="tool-slice"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583c3a5c1c4185d43630d4af_tool-photoshop-cc.png"
+                      width="94" alt="" class="img_100w" /></div>
+                  <div class="tool_mudbox"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583c3a5cb333a5214d35980f_tool-mudbox-cc.png"
+                      width="94" alt="" class="img_100w" /></div>
+                  <div class="tool-slice"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583c3a5cb333a5214d35980f_tool-mudbox-cc.png"
+                      width="94" alt="" class="img_100w" /></div>
+                  <div class="tool_topogun"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583c3a5cd36bab22572fbd92_tool-unfold-cc.png"
+                      width="94" alt="" class="img_100w" /></div>
+                  <div class="tool-slice"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583c3a5cd36bab22572fbd92_tool-unfold-cc.png"
+                      width="94" alt="" class="img_100w" /></div>
+                  <div class="tool_unfold"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583c3a5c45569b016c4fd840_tool-topogun-cc.png"
+                      width="94" alt="" class="img_100w" /></div>
+                  <div class="tool-slice topogun"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583c3a5c45569b016c4fd840_tool-topogun-cc.png"
+                      width="94" alt="" class="img_100w" /></div>
+                  <div class="skill-title">TOOLS</div>
+                </div>
+                <div class="skill-list">
+                  <div data-ix="tools-maya" class="skill-row">
+                    <div data-ix="tools-maya" class="skill-dot col1"></div>
+                    <div data-ix="tools-maya" class="skill-name">MAYA</div>
+                  </div>
+                  <div data-ix="tools-zbrush" class="skill-row">
+                    <div data-ix="tools-zbrush" class="skill-dot col2"></div>
+                    <div data-ix="tools-zbrush" class="skill-name">ZBRUSH</div>
+                  </div>
+                  <div data-ix="tools-photoshop" class="skill-row">
+                    <div data-ix="tools-photoshop" class="skill-dot col3"></div>
+                    <div data-ix="tools-photoshop" class="skill-name">PHOTOSHOP</div>
+                  </div>
+                  <div data-ix="tools-mudbox" class="skill-row">
+                    <div data-ix="tools-mudbox" class="skill-dot mudbox"></div>
+                    <div data-ix="tools-mudbox" class="skill-name">MUDBOX</div>
+                  </div>
+                  <div data-ix="tools-topogun" class="skill-row">
+                    <div data-ix="tools-topogun" class="skill-dot col5"></div>
+                    <div data-ix="tools-topogun" class="skill-name">TOPOGUN</div>
+                  </div>
+                  <div data-ix="tools-unfold" class="skill-row">
+                    <div data-ix="tools-unfold" class="skill-dot col6"></div>
+                    <div data-ix="tools-unfold" class="skill-name">UNFOLD3D</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-wrapper rskill">
+              <div class="skill-panel fixh">
+                <div class="chart-wrapper">
+                  <div class="strength_teamplay"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583de2791336d091476e8596_strenght_TeamPlayer.png"
+                      width="94" alt="" class="img_100w" /></div>
+                  <div class="strength_slice"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583de2791336d091476e8596_strenght_TeamPlayer.png"
+                      width="94" alt="" class="img_100w" /></div>
+                  <div class="strength_learning"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583de2796d6ba6c04dd7e1d3_strenght_quickLearning.png"
+                      width="94"
+                      srcset="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583de2796d6ba6c04dd7e1d3_strenght_quickLearning-p-500x500.png 500w, https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583de2796d6ba6c04dd7e1d3_strenght_quickLearning.png 746w"
+                      sizes="(max-width: 479px) 27vw, (max-width: 991px) 23vw, 12vw" alt="" class="img_100w" /></div>
+                  <div class="strength_slice"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583de2796d6ba6c04dd7e1d3_strenght_quickLearning.png"
+                      width="94"
+                      srcset="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583de2796d6ba6c04dd7e1d3_strenght_quickLearning-p-500x500.png 500w, https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583de2796d6ba6c04dd7e1d3_strenght_quickLearning.png 746w"
+                      sizes="(max-width: 479px) 27vw, (max-width: 991px) 23vw, 12vw" alt="" class="img_100w" /></div>
+                  <div class="strength_listening"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583de279e41dbbcf4768157e_strenght_responsiveListening.png"
+                      width="94" alt="" class="img_100w" /></div>
+                  <div class="strength_slice"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/583de279e41dbbcf4768157e_strenght_responsiveListening.png"
+                      width="94" alt="" class="img_100w" /></div>
+                  <div class="strength_slice"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/586ce3993a11ff873a4d4d07_strenght_problemSolving_2.png"
+                      width="94"
+                      srcset="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/586ce3993a11ff873a4d4d07_strenght_problemSolving_2-p-500x500.png 500w, https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/586ce3993a11ff873a4d4d07_strenght_problemSolving_2.png 746w"
+                      sizes="(max-width: 479px) 27vw, (max-width: 991px) 23vw, 12vw" alt="" class="img_100w" /></div>
+                  <div class="strength_problemsolving"><img
+                      src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/586ce3993a11ff873a4d4d07_strenght_problemSolving_2.png"
+                      width="94"
+                      srcset="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/586ce3993a11ff873a4d4d07_strenght_problemSolving_2-p-500x500.png 500w, https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/586ce3993a11ff873a4d4d07_strenght_problemSolving_2.png 746w"
+                      sizes="(max-width: 479px) 27vw, (max-width: 991px) 23vw, 12vw" alt="" class="img_100w" /></div>
+                  <div class="skill-title">STRENGTHS</div>
+                </div>
+                <div class="skill-list">
+                  <div data-ix="strength-teamplay" class="skill-row">
+                    <div class="skill-dot col1"></div>
+                    <div class="skill-name">TEAMPLAY</div>
+                  </div>
+                  <div data-ix="strength-learning" class="skill-row">
+                    <div class="skill-dot col2"></div>
+                    <div class="skill-name">QUICK LEARNING</div>
+                  </div>
+                  <div data-ix="strength-listening" class="skill-row">
+                    <div class="skill-dot col3"></div>
+                    <div class="skill-name">LEADERSHIP</div>
+                  </div>
+                  <div data-ix="strength-problemsolving" class="skill-row">
+                    <div class="skill-dot col4"></div>
+                    <div class="skill-name">PROBLEM SOLVING</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bio-section margin">
+          <div class="bio-container">
+            <div class="exp_r-column">
+              <div class="exp_card_wrapper card7">
+                <div class="exp_role">FREELANCE CHARACTER ARTIST</div>
+                <div class="exp_date-company">
+                  <div class="exp_date">07.2016 - 05.2017</div>
+                </div>
+                <div class="exp_text">Remote collaborations for cartoon character design</div>
+              </div>
+              <div class="exp_card_wrapper card1">
+                <div class="exp_role">BORN</div>
+                <div class="exp_date-company">
+                  <div class="exp_company">Rome, Italy</div>
+                  <div class="exp_date">05.06.1991</div>
+                </div>
+                <div class="exp_text">Blood and gore.</div>
+              </div>
+              <div class="exp_card_wrapper card3">
+                <div class="exp_role">INSIDE TRAINEE</div>
+                <div class="exp_date-company">
+                  <div class="exp_company">DIRECT2BRAIN - Italy</div>
+                  <div class="exp_date">2012 - 2013</div>
+                </div>
+                <div class="exp_text">My very first job, with little responsibilities but many chances of learning,
+                  while attending school.</div>
+              </div>
+              <div class="exp_card_wrapper card5">
+                <div class="exp_role">MODELER and Jr.CHARACTER ARTIST</div>
+                <div class="exp_date-company">
+                  <div class="exp_company">DIRECT2BRAIN - Italy</div>
+                  <div class="exp_date">2014 - 05.2016</div>
+                </div>
+                <div class="exp_text">My main responsibilities were modeling and painting textures for some of the
+                  <strong>main characters</strong> for commercials. I also managed <strong>small teams</strong> for
+                  miscellaneous tasks, such as cleaning animations or rig adjustments.
+                </div>
+              </div>
+            </div>
+            <div class="exp_c-column">
+              <div class="exp_dot big dot1">
+                <div class="exp_dot dot7mini"></div>
+              </div>
+              <div class="exp_dot big dot3">
+                <div class="exp_dot dot7mini"></div>
+              </div>
+              <div class="exp_dot big dot5">
+                <div class="exp_dot dot7mini"></div>
+              </div>
+              <div class="exp_dot big dot7">
+                <div class="exp_dot dot7mini"></div>
+              </div>
+              <div class="exp_dot big dot4">
+                <div class="exp_dot dot7mini lefty"></div>
+              </div>
+              <div class="exp_dot big dot2">
+                <div class="exp_dot dot7mini lefty"></div>
+              </div>
+              <div class="exp_dot big dot8">
+                <div class="exp_dot dot7mini lefty"></div>
+              </div>
+              <div class="exp_dot big dot6">
+                <div class="exp_dot dot7mini lefty"></div>
+              </div>
+              <div class="exp_line"></div>
+              <div class="exp_dot"></div>
+            </div>
+            <div class="exp_l-column">
+              <div class="exp_card_wrapper card2">
+                <div class="exp_role l">IED - European Institute of Design</div>
+                <div class="exp_date-company">
+                  <div class="exp_date">2011 - 2013</div>
+                  <div class="exp_company">CGI course</div>
+                </div>
+                <div class="exp_text ltext">Graduated with a score of 98/100. So close.</div>
+              </div>
+              <div class="exp_card_wrapper card4">
+                <div class="exp_role l">Jr.MODELER and TEXTURE ARTIST</div>
+                <div class="exp_date-company">
+                  <div class="exp_date">2013 - 2014</div>
+                  <div class="exp_company">DIRECT2BRAIN - Italy</div>
+                </div>
+                <div class="exp_text ltext">First responsibilities and important tasks. <br />I began specializing in
+                  character art and handpainted textures.</div>
+              </div>
+              <div class="exp_card_wrapper card6">
+                <div class="exp_role l">SCULPTOR</div>
+                <div class="exp_date-company">
+                  <div class="exp_date">05.2016 - 07.2016</div>
+                  <div class="exp_company">UNIDEA GROUP- Italy</div>
+                </div>
+                <div class="exp_text ltext">Texture projection-based sculpting for characters and texture fixing</div>
+              </div>
+              <div class="exp_card_wrapper card8">
+                <div class="exp_role l">MID CHARACTER MODELER and BS ARTIST</div>
+                <div class="exp_date-company">
+                  <div class="exp_date">06.2017 - 04.2018</div>
+                  <div class="exp_company">2D3D ANIMATIONS - France</div>
+                </div>
+                <div class="exp_text ltext">Moved to France! Blendshape artist for the show &quot;King of Space&quot;,
+                  Character Modeler and Blenshape artist for &quot;Sadie Sparks&quot;.</div>
+              </div>
+            </div>
+          </div>
+          <div id="contact-tablet" class="tablet-navbar-dummy w-hidden-main"></div>
+        </div>
+        <div class="section_ball contact"></div>
+      </div>
+      <!-- Partie ABOUT -->
+
+      <!-- Partie CONTACT -->
+      <div id="contact" class="section contact sidemenusection">
+        <div class="news-label-wrapper">
+          <div class="news-affarino"><img src="/ressource/Separateur_1.png" width="255" alt="" class="img_100w" /></div>
+          <div class="title-section">CONTACT</div>
+          <div class="news-affarino"><img src="/ressource/Separateur_1.png" width="255" alt="" class="img_100w flip" />
+          </div>
+        </div>
+        <div class="news-label-wrapper text-contact-tab">
+          <div class="contact-container w-container">
+            <div class="contact_text">Do you want to know more?<br />Follow me on the <strong>Social
+                Networks</strong>!<br />You will find my WIPs, sketches, tests and the latest
+              news<br /><br /><em>enzoduret@gmail.com<br />France</em></div>
+          </div>
+        </div>
+        <div class="mobile_social_container w-hidden-main">
+          <div class="sidebar_social">
+            <div class="social_flexrow"><a href="https://www.facebook.com/" target="_blank"
+                class="social-icon w-inline-block"><img
+                  src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/588f640d93df3c8802670e9b_social_icons_01_facebook.png"
+                  data-ix="social-icon" alt="" /></a><a target="_blank" href="https://www.instagram.com/"
+                class="social-icon w-inline-block"><img
+                  src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/5beee6dd401a20a90e5ae46a_social_icons_01_Instagram4.svg"
+                  data-ix="social-icon" alt="" /></a><a href="https://twitter.com/#" target="_blank"
+                class="social-icon w-inline-block"><img
+                  src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/588f6867d1806d77452f79fb_social_icons_08_twitter.svg"
+                  data-ix="social-icon" alt="" /></a><a target="_blank" href="https://www.linkedin.com/"
+                class="social-icon w-inline-block"><img
+                  src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/588f685e528d21b74565a721_social_icons_07_linkedin.svg"
+                  data-ix="social-icon" alt="" /></a></div>
+            <div class="social_flexrow"><a href="https://www.artstation.com/" class="social-icon w-inline-block"><img
+                  src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/588f68456c5d8fdd05646430_social_icons_05_artstation.svg"
+                  data-ix="social-icon" alt="" /></a><a target="_blank" href="https://vimeo.com/#"
+                class="social-icon w-inline-block"><img
+                  src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/588f683ad7a2e7e17e5710dd_social_icons_04_vimeo.svg"
+                  data-ix="social-icon" alt="" /></a><a href="https://www.youtube.com/" target="_blank"
+                class="social-icon w-inline-block"><img
+                  src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/588f6792d1806d77452f7927_social_icons_03_youtube.svg"
+                  data-ix="social-icon" alt="" /></a></div>
+            <div class="social_flexrow hidden"><a href="#" class="social-icon w-inline-block"><img
+                  src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/588f683ad7a2e7e17e5710dd_social_icons_04_vimeo.svg"
+                  data-ix="social-icon" alt="" /></a><a href="#" class="social-icon w-inline-block"><img
+                  src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/588f68456c5d8fdd05646430_social_icons_05_artstation.svg"
+                  data-ix="social-icon" alt="" /></a><a href="#" class="social-icon w-inline-block"><img
+                  src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/588f684fd1806d77452f79ab_social_icons_06_behance.svg"
+                  data-ix="social-icon" alt="" /></a><a href="#" class="social-icon w-inline-block"><img
+                  src="https://uploads-ssl.webflow.com/57a1df287a6b45e0673087e6/588f6792d1806d77452f7927_social_icons_03_youtube.svg"
+                  data-ix="social-icon" alt="" /></a></div>
+          </div>
+        </div>
+        <div class="bio-section contact-wrapper">
+          <div class="bio-container">
+            <div class="form-wrapper w-form">
+              <img src="img/Contact image.png">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Partie CONTACT -->
+
+    </div>
+  </div>
+
+
+
+
+  <!-- Les scripts pour le portfolio -->
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.js"
+    type="text/javascript"></script>
+
+  <script>
+    $(document).ready(function () {
+      // init Isotope
+      var $grid = $('.gallery_section').isotope({
+        itemSelector: '.item',
+      });
+
+      // store filter for each group
+      var filters = {};
+      $('.separator').on('click', '.gallery_menu_button', function () {
+        var $this = $(this);
+        // get group key
+        var $buttonGroup = $this.parents('.button-group');
+        var filterGroup = $buttonGroup.attr('data-filter-group');
+        // set filter for group
+        filters[filterGroup] = $this.attr('data-filter');
+        // combine filters
+        var filterValue = concatValues(filters);
+        // set filter for Isotope
+        $grid.isotope({ filter: filterValue });
+      });
+      // change is-checked class on buttons
+      $('.button-group').each(function (i, buttonGroup) {
+        var $buttonGroup = $(buttonGroup);
+        $buttonGroup.on('click', 'button', function () {
+          $buttonGroup.find('.is-checked').removeClass('is-checked');
+          $(this).addClass('is-checked');
+        });
+      });
+    });
+    // flatten object by concatting values
+    function concatValues(obj) {
+      var value = '';
+      for (var prop in obj) {
+        value += obj[prop];
+      }
+      return value;
+    }
+
+
+    function showTextOnHover(event) {
+      // Récupérer les éléments ayant la classe "start-off" dans la même div que l'élément survolé
+      const startOffElements = event.currentTarget.querySelectorAll('.start-off');
+
+      // Afficher les éléments "start-off" en modifiant leur style display
+      startOffElements.forEach((element) => {
+        element.style.display = 'block';
+      });
+    }
+
+    // Fonction pour masquer le texte lorsque la souris quitte l'élément
+    function hideTextOnLeave(event) {
+      // Récupérer les éléments ayant la classe "start-off" dans la même div que l'élément survolé
+      const startOffElements = event.currentTarget.querySelectorAll('.start-off');
+
+      // Masquer les éléments "start-off" en modifiant leur style display
+      startOffElements.forEach((element) => {
+        element.style.display = 'none';
+      });
+    }
+
+    // Sélectionner tous les éléments ayant la classe "hover_overlay"
+    const hoverOverlayElements = document.querySelectorAll('.hover_overlay');
+
+    // Attacher des écouteurs d'événements pour chaque élément "hover_overlay"
+    hoverOverlayElements.forEach((element) => {
+      element.addEventListener('mouseenter', showTextOnHover);
+      element.addEventListener('mouseleave', hideTextOnLeave);
+    });
+  </script>
+  <!-- Les scripts pour le portfolio -->
+
+</body>
+
+</html>
